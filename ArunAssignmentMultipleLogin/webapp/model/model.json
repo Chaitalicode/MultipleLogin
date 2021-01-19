@@ -1,0 +1,68 @@
+{
+	"EmployeeData": [{
+			"id": "EMP13246",
+			"name": "Priyank Sharma",
+			"dept": "HR Executive(Junior)",
+			"phone": 7894868585,
+			"addr": "Bangalore",
+			"salary": 20000,
+			"gmail": "priyank@gmail.com",
+			"pwd": "priyank"
+		}, {
+			"id": "EMP13247",
+			"name": "Nidhi Kumari",
+			"dept": "Hybris Consultant",
+			"phone": 8595858585,
+			"addr": "Bihar",
+			"salary": 15000,
+			"gmail": "nidhi@gmail.com",
+			"pwd": "nidhi"
+		}, {
+			"id": "EMP13248",
+			"name": "Rithesh Bhatt",
+			"dept": "HR Executive",
+			"phone": 9994868585,
+			"addr": "Delhi",
+			"salary": 30000,
+			"gmail": "rithesh@gmail.com",
+			"pwd": "rithesh"
+		}, {
+			"id": "EMP13249",
+			"name": "Prakhar Dey",
+			"dept": "UI5 and Fiori Consultant",
+			"phone": 894682848,
+			"addr": "Rajasthan,Udaipur",
+			"salary": 15000,
+			"gmail": "prakhar@gmail.com",
+			"pwd": "prakhar"
+		}, {
+			"id": "EMP13250",
+			"name": "Milan Jain",
+			"dept": "UI5 and Fiori Consultant",
+			"phone": 7855568585,
+			"addr": "Rajasthan,Jaipur",
+			"salary": 20000,
+			"gmail": "milan@gmail.com",
+			"pwd": "milan"
+		}
+
+	],
+
+	"CustomerData": [{
+		"id": "CUST1234",
+		"name": "Ritekesh Das",
+		"companyName": "IT Infrastrucutre PVT LMT",
+		"address": "Bangalore",
+		"gmail": "ritekesh@gmail.com",
+		"pwd": "ritekesh"
+	},
+	{
+		"id": "CUST1235",
+		"name": "Gauri Gupta",
+		"companyName": "Hindustan oil Petrol Pump Pvt LMt",
+		"address": "Bangalore",
+		"gmail": "Gauri@gmail.com",
+		"pwd": "gauri"
+	}
+	]
+}

@@ -1,0 +1,25 @@
+<mvc:View controllerName="AA.ArunAssignmentMultipleLogin.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:f="sap.ui.layout.form" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<VBox>
+							<f:SimpleForm>
+								<Label text="Email"></Label>
+								<Input id = "emailVal" value="" width="50%"></Input>
+								<Label></Label>
+								<Label text="Password"></Label>
+								<Input id = "pwdVal" value="" width="50%"></Input>
+								<Label></Label>
+								<Button text="Login" width="50%" press="onLogin"></Button>
+								<Label></Label>
+								<Button text="Create Account" width="50%" press="onCreateAccount"></Button>
+							</f:SimpleForm>
+						</VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

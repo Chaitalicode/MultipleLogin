@@ -1,0 +1,33 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+	controllerName="AA.ArunAssignmentMultipleLogin.controller.CreateAccount" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					<VBox>
+						<f:SimpleForm>
+							<Label text="Name"></Label>
+							<Input id="nameVal" value="" width="50%"></Input>
+							<Label></Label>
+							<Label text="Company Name"></Label>
+							<Input id="cmpyVal" value="" width="50%"></Input>
+							<Label></Label>
+							<Label text="Address"></Label>
+							<Input id="addrVal" value="" width="50%"></Input>
+							<Label></Label>
+							<Label text="Email"></Label>
+							<Input id="emailVal" value="" width="50%"></Input>
+							<Label></Label>
+							<Label text="Password"></Label>
+							<Input id="pwdVal" value="" width="50%"></Input>
+							<Label></Label>
+							<Button text="Create Account" width="50%" press="onCreateAccount"></Button>
+							<Label></Label>
+							<Button text="Login" width="50%" press="onLoginBtn"></Button>
+						</f:SimpleForm>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,31 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+	<Dialog id="idDialog" title="{i18n>ZLBL_Title1}">
+		<f:SimpleForm id="idSimpleForm">
+			<l:VerticalLayout class="sapUiContentPadding" width="100%">
+				<l:content>
+					<VBox>
+						<Label text="{i18n>Id}" design="Bold"/>
+						<Input id="idPM" value="{id}" enabled="true" liveChange="validate" />
+						<Label text="{i18n>Name}" design="Bold"/>
+						<Input id="idNameM" value="{name}" enabled="true" liveChange="validate" />
+						<Label text="{i18n>Dept}" design="Bold"/>
+						<Input id="idDeptM" value="{dept}" enabled="true" liveChange="validate" />
+						<Label text="{i18n>Phone}" design="Bold"/>
+						<Input id="idPhoneM" value="{phone}" enabled="true" liveChange="validate" />
+						<Label text="{i18n>Addr}" design="Bold"/>
+						<Input id="idAddrM" value="{addr}" enabled="true" liveChange="validate" />
+						<Label text="{i18n>Salary}" design="Bold"/>
+						<Input id="idSalaryM" value="{salary}" enabled="true" liveChange="validate" />
+					</VBox>
+				</l:content>
+			</l:VerticalLayout>
+		</f:SimpleForm>
+		<buttons>
+			<!--<beginButton>-->
+			<!--<Button type="Accept" text="{i18n>XLBL_Update}" press="onUpdate"/>-->
+			<!--</beginButton>-->
+			<!--<endButton>-->
+			<Button type="Reject"  text="{i18n>XLBL_Close}" press="onClose"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
